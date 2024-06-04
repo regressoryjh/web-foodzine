@@ -1,0 +1,222 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.login {
+  height: 100vh;
+  padding-top: 50px; /* Tambahkan padding-top di sini */
+  padding-bottom: 50px; /* Tambahkan padding-bottom di sini */
+}
+
+
+.login-form {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff; /* Pertahankan latar belakang putih */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: #2C444E;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+.header p{
+  color: #525252;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+.tulisan p{
+  color: #A1A1A1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 259px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-top:28px;
+  margin-bottom: 0px;
+  
+}
+
+.lupaingat{
+  gap: 222px;
+}
+
+.login-form label{
+  color: var(--Gray-3, #828282);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 24px;
+  margin-top: 0px;
+}
+
+
+.lupaingat input{
+  width: 12px;
+  height: 12px;
+}
+
+.d-flex lupaingat label{
+  color: #A1A1A1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-form input{
+  padding: 13px 10px;
+  align-items: center;
+  gap: 13px;
+  border-radius: 5px;
+  border: 1px solid #DED2D9;
+}
+
+.login-form a{
+  color: #F8B515;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 8px;
+  margin-bottom:11px;
+  display:block;
+}
+
+
+
+.login-right .header .login-google{
+  display: flex;
+  width: 100%;
+  height: 46px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  margin-top: 28px 0 10px 0;
+}
+
+
+
+.login-form .tombol span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--Gray-3, #828282);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 61px;
+  margin-left: 51px;
+  margin-right: 51px;
+}
+
+.login-form span a{
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.login-left img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 154px
+}
+
+.login-right {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 152px;
+}
+
+.message {
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--red);
+  color: var(--white);
+  font-size: 20px;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin-top: 20px;
+  
+}
+
+.tombol button {
+  width: 100%;
+  padding: 13px 10px;
+  border-radius: 6px;
+  background: #F8B515;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-top: 2px;
+}
+
+
+/* Tambahkan media query untuk menyesuaikan gambar pada layar yang lebih kecil */
+@media only screen and (max-width: 600px) {
+  .login-left img {
+    margin-top: 10px; /* Sesuaikan margin gambar untuk layar yang lebih kecil */
+  }
+}
+
+.form-footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-footer .btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-footer .d-inline {
+  display: block;
+  text-align: center;
+}

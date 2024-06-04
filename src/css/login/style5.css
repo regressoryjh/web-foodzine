@@ -1,0 +1,299 @@
+*{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 2673px;
+  flex-shrink: 0;
+} */
+
+.fotoprof {
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.profil {
+  flex: 1;
+}
+
+.profil2 {
+  flex: 1;
+}
+.head-prof{
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.namaLgkp{
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left:528px;
+  margin-right:741px;
+  margin-top:132px;
+  margin-bottom:2516px;
+}
+
+body {
+  background-color: #FFF6E5;
+}
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  position: relative;
+  padding-right: 30px;
+}
+
+.btn-primary img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.btn-primary {
+  background-color: #FF9C35;
+  border-color: #FF9C35;
+  width: 182px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+.btn-primary:hover {
+  background-color: #F5A623;
+  border-color: #F5A623;
+}
+
+.btn-ubah-profil {
+  background-color: #FF9C35;
+  border-color: #FF9C35;
+  border-radius: 10px;
+  background: #FF9C35;
+  width: 182px;
+  height: 46px;
+  color: white;
+}
+
+#ubahProfilBtn:active,
+#simpanBtn:active,
+#ubahProfilBtn:focus,
+#simpanBtn:focus, #gantiProfilBtn:active,
+#gantiProfilBtn:focus{
+  background-color: #FF9C35; /* Ganti dengan warna latar belakang saat diklik atau fokus yang diinginkan */
+  border-color: #FF9C35; /* Ganti dengan warna border saat diklik atau fokus yang diinginkan */
+}
+
+.btn-ubah-profil:hover {
+  background-color: #F5A623;
+  border-color: #F5A623;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.profil2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: -50px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.form-label img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.fotoprof img {
+  width: 175px;
+  height: 175px;
+  flex-shrink: 0;
+  margin-bottom: 75px;
+  
+}
+
+.langganan {
+  margin-top: 125px;
+  
+}
+
+.img{
+  margin-bottom: 28px;
+}
+
+.langganan p{
+  color: #000;
+  font-size: 21px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+
+.img1 p{
+  color: #383A3B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.img2 p{
+  color: #383A3B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-left: 16px;
+}
+
+
+
+.langganan label{
+  margin-bottom: 100px;
+  
+}
+
+.img2{
+  margin-left :-16px;
+}
+
+.img2 imgline{
+  margin-left :-16px;
+}
+
+.span{
+  margin-right:20px;
+}
+
+.ulasan h1{
+  color: #000;
+  font-size: 21px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ulasan{
+  margin-top:0px;
+}
+
+.fotoprof btn{
+  
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  width: 174px;
+  height: 30px;
+  
+
+}
+
+.fotoprof {
+
+  align-items: center;
+  text-align: center;
+  
+}
+
+.fotoprof img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.fotoprof p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.fotoprof button {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #FFA447;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.btn-primary:active {
+      background-color: orange !important;
+    }
+
+.komen img{
+  margin-bottom: 30px;
+}
+
+.ulasan h1{
+  margin-bottom: 35px;
+}
+
+.komen img {
+  float: right;
+  
+}
+
+.fotoprof{
+  margin-right: 101px;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profil form {
+  flex: 1;
+}
+
+
+
+.profil button {
+  margin-top: 20px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+.gambar1{
+  margin-bottom: 30px;
+}
+
+.gambar2{
+  margin-bottom: 30px;
+}
+
+
+
